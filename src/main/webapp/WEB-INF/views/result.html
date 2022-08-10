@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result page</title>
+</head>
+<body>
+
+    <div>
+
+        <p th:text="'To fullfill your request, ATM will use ' + ${cassetteNo}"/>
+        <p th:text="'Calculation time (in millis) : ' + ${timer}"/>
+
+    </div>
+
+</body>
+</html>
